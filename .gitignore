@@ -1,0 +1,14 @@
+Library
+Assembly*
+Temp
+Logs
+obj
+Build
+.DS_Store
+
+*.csproj
+*.suo
+*.sln
+*.user
+.idea
+Assets/Plugins/Editor/Jetbrains*
