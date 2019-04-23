@@ -31,3 +31,9 @@ There’s no need for coding when setting the rules, you can always use basic pr
 • Parents – searching for components or GameObjects in the parents GameObjects
 • Tag – searching for components or GameObjects with specified tag in scene
 • Object of Type – searching for objects of specified type in scene
+
+## **[» Tutorial][tutorial]**
+## **[» Documentation][documentation]**
+
+[tutorial]: https://youtu.be/lcqoPOIYMno "Exposed Tutorial"
+[documentation]: http://3move.org/exposed/Exposed-Manual.pdf "Exposed Documentation"
