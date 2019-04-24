@@ -10,15 +10,15 @@ public class Ship : MonoBehaviour
 
     public void Awake()
     {
-        Debug.LogError(Cannon, Cannon);
+        Debug.Log(Cannon, Cannon);
         foreach (var cannon in Cannons)
         {
-            Debug.LogError("array:" + cannon, cannon);    
+            Debug.Log("array:" + cannon, cannon);    
         }
-        Debug.LogError(CannonGameObject, CannonGameObject);
+        Debug.Log(CannonGameObject, CannonGameObject);
         foreach (var cannon in CannonGameObjects)
         {
-            Debug.LogError("list:" + cannon, cannon);    
+            Debug.Log("list:" + cannon, cannon);    
         }
     }
 }

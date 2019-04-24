@@ -96,6 +96,9 @@ namespace Assets.Scripts.Tests
         private void TestArrayOrderIndependent<T>(T[] firstArray, T[] secondArray)
             where T : Object
         {
+            if (firstArray == null) { firstArray = new T[]{};}
+            if (secondArray == null) { secondArray = new T[]{};}
+            
             if (firstArray.Length != secondArray.Length)
             {
                 Debug.LogError(string.Format("Arrays aren't the same lenght! <b>{0}</b>:<b>{1}</b>", firstArray, secondArray),
@@ -141,6 +144,9 @@ namespace Assets.Scripts.Tests
         private void TestListOrderIndependent<T>(List<T> firstList, List<T> secondList)
             where T : Object
         {
+            if (firstList == null) { firstList = new List<T>();}
+            if (secondList == null) { secondList = new List<T>();}
+            
             if (firstList.Count != secondList.Count)
             {
                 Debug.LogError(string.Format("Lists aren't the same lenght! <b>{0}</b>:<b>{1}</b>", firstList, secondList),
