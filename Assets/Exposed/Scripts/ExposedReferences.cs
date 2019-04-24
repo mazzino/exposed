@@ -65,8 +65,6 @@ namespace Exposed
 
         public void Awake()
         {
-            //ExposedRegister.Instance.TriggerSceneRestart();
-
             if (!LateUpdate && (!ExposedScriptConfigurationManagerAsset.Instance.PreInitializationEnabled || !PreInitializationEnabled))
             {
                 ExposedLogger.Info(name + " - without caching awake", this);
@@ -76,7 +74,6 @@ namespace Exposed
 
         public void Start()
         {
-            //ExposedRegister.Instance.TriggerNull();
             if (LateUpdate && (!ExposedScriptConfigurationManagerAsset.Instance.PreInitializationEnabled || !PreInitializationEnabled))
             {
                 ExposedLogger.Info(name + " - without caching start", this);
