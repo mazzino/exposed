@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90d76e63f519e2745bb181838fe08617, type: 3}
+  m_Name: DemoShip
+  m_EditorClassIdentifier: 
+  _exposedScriptConfigurationManager:
+    _componentKeys:
+    - Cannon
+    - Cannons
+    - CannonGameObject
+    - CannonGameObjects
+    _componentValues:
+    - _enabled: 1
+      _searchType: 10
+      _operationType: exposed-tag
+      _query: 
+      _additionalDataString: AAEAAAD/////AQAAAAAAAAAMAgAAAEZBc3NlbWJseS1DU2hhcnAsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBQEAAAAwRXhwb3NlZC5Db25maWcuUHJvY2Vzc29ycy5BZGRpdGlvbmFsRGF0YS5UYWdEYXRhAgAAAANUYWcWRmlsdGVyQnlHYW1lT2JqZWN0TmFtZQEAAQIAAAAGAwAAAAZQbGF5ZXIBCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+    - _enabled: 1
+      _searchType: 10
+      _operationType: exposed-tag
+      _query: 
+      _additionalDataString: AAEAAAD/////AQAAAAAAAAAMAgAAAEZBc3NlbWJseS1DU2hhcnAsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBQEAAAAwRXhwb3NlZC5Db25maWcuUHJvY2Vzc29ycy5BZGRpdGlvbmFsRGF0YS5UYWdEYXRhAgAAAANUYWcWRmlsdGVyQnlHYW1lT2JqZWN0TmFtZQEAAQIAAAAGAwAAAAZQbGF5ZXIBCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+    - _enabled: 1
+      _searchType: 10
+      _operationType: exposed-tag
+      _query: 
+      _additionalDataString: AAEAAAD/////AQAAAAAAAAAMAgAAAEZBc3NlbWJseS1DU2hhcnAsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBQEAAAAwRXhwb3NlZC5Db25maWcuUHJvY2Vzc29ycy5BZGRpdGlvbmFsRGF0YS5UYWdEYXRhAgAAAANUYWcWRmlsdGVyQnlHYW1lT2JqZWN0TmFtZQEAAQIAAAAGAwAAAAZQbGF5ZXIBCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+    - _enabled: 1
+      _searchType: 10
+      _operationType: exposed-tag
+      _query: 
+      _additionalDataString: AAEAAAD/////AQAAAAAAAAAMAgAAAEZBc3NlbWJseS1DU2hhcnAsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBQEAAAAwRXhwb3NlZC5Db25maWcuUHJvY2Vzc29ycy5BZGRpdGlvbmFsRGF0YS5UYWdEYXRhAgAAAANUYWcWRmlsdGVyQnlHYW1lT2JqZWN0TmFtZQEAAQIAAAAGAwAAAAZQbGF5ZXIBCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==

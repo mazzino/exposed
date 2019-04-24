@@ -6,7 +6,7 @@ namespace Assets.Scripts.Tests
     {
         public void Awake()
         {
-            Debug.LogError("All tests completed");
+            Debug.Log("<b>All tests completed</b>");
         }
          
     }

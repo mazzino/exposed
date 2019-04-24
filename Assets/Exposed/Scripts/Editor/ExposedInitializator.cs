@@ -28,9 +28,6 @@ namespace Exposed.Editor
 
         public static void UpdateReferences()
         {
-            //cleaning register for dynamic instances inicialization
-            //ExposedRegister.Instance.CleanUp();
-
             ExposedLogger.Info("Updating EXPOSED references");
             ExposedReferences[] exposedReferences = Resources.FindObjectsOfTypeAll<ExposedReferences>();
 
